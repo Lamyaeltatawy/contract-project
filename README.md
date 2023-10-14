@@ -15,6 +15,12 @@ This is an Angular-based web application that allows users to manage and track t
 - Angular
 - Bootstrap
 - HTML
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js and npm installed.
+- Angular CLI installed. If not, you can install it globally using `npm install -g @angular/cli`.
 
 ## Installation
 
@@ -28,8 +34,9 @@ This is an Angular-based web application that allows users to manage and track t
 3. Start the development server:
    ```bash
    ng serve
-4. Open your web browser and access the application at http://localhost:4200.:
-  
+4. Open your web browser and access the application at http://localhost:4200.
+
+
 ## Screenshots
 <div>
   <img src="./src/assets/pho.jpg"/>
