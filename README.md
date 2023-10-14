@@ -7,6 +7,7 @@ This is an Angular-based web application that allows users to manage and track t
 - View and manage contract details including name, amount, and remaining payments.
 - Add fees or apply discounts to a contract.
 - Update contract information when the client makes a payment.
+- user can preview his previous contracts
 - Report clients if necessary through the website.
 
 ## Technologies Used
@@ -31,11 +32,8 @@ This is an Angular-based web application that allows users to manage and track t
   
 ## Screenshots
 <div>
-  <img src="./src/assets/all-products.jpg"/>
-  <img src="./src/assets/all-2.jpg"/>
-  <img src="./src/assets/category.jpg"/>
-  <img src="./src/assets/details2.jpg"/>
-  <img src="./src/assets/product-details.jpg"/>
+  <img src="./src/assets/pho.jpg"/>
+  <img src="./src/assets/phot.jpg"/>
 </div>
 
 
