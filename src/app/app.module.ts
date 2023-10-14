@@ -14,7 +14,7 @@ import { ShowContractDetailsComponent } from './components/home/show-contract-de
 import { ContractOptionsComponent } from './components/home/contract-options/contract-options.component';
 import { ContractActionsComponent } from './components/home/contract-actions/contract-actions.component';
 import { CardComponent } from './components/home/card/card.component';
-import { AddNewInputComponent } from './components/home/add-new-input/add-new-input.component';
+// import { AddNewInputComponent } from './components/home/add-new-input/add-new-input.component';
 // import { ContractDetailsComponent } from './components/home/contract-details/contract-details.component';
 
 @NgModule({
@@ -30,7 +30,7 @@ import { AddNewInputComponent } from './components/home/add-new-input/add-new-in
     ContractOptionsComponent,
     ContractActionsComponent,
     CardComponent,
-    AddNewInputComponent,
+    // AddNewInputComponent,
     // ContractDetailsComponent,
   ],
   imports: [
