@@ -1,0 +1,25 @@
+.details ul li {
+    padding: 6px 24px 6px 24px;
+    color: #DEDEDE;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #3D5653;
+    /* border-radius: 8px 0px 0px 0px; */
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.details ul li:hover {
+    background-color: #F5F5F5;
+    color: black;
+    border-radius: 8px 0px 0px 0px;
+
+
+}
+.details ul li:first-child{
+    border-radius: 8px 0px 0px 0px;
+}

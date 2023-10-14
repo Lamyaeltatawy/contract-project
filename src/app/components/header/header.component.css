@@ -1,0 +1,46 @@
+.padding {
+    padding: 6px 4px 6px 4px;
+
+}
+
+.border-radious {
+    border-radius: 6px;
+}
+
+.bg-color {
+    background-color: rgba(150, 199, 254, 0.30);
+
+}
+
+.mr {
+    margin-right: 14px;
+}
+
+.gap {
+    gap: 14px;
+    margin-right: 20px;
+    ;
+}
+
+.pl {
+    padding-left: 40px;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.color {
+    color: #3D5653;
+}
+
+.bg-yellow {
+    background-color: #D6A218;
+}
+.p{
+    padding: 8px;
+}
+.font{
+    font-size: 16px;
+    
+}

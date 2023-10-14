@@ -1,0 +1,41 @@
+* {
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+
+}
+
+.container {
+    padding: 0px 40px 0px 40px;
+}
+
+.path {
+    color: #3A3A3A;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 8px;
+}
+
+.contract-data .text {
+    color: #000;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contract-status .status {
+    color: #D6A218;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tables-container {
+    background-color: #000;
+}
+
