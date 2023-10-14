@@ -21,3 +21,21 @@ This is an Angular-based web application that allows users to manage and track t
 
    ```bash
    git clone https://github.com/your-username/contracts-management.git
+2. Install the required dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   ng serve
+4. Open your web browser and access the application at http://localhost:4200.:
+  
+## Screenshots
+<div>
+  <img src="./src/assets/all-products.jpg"/>
+  <img src="./src/assets/all-2.jpg"/>
+  <img src="./src/assets/category.jpg"/>
+  <img src="./src/assets/details2.jpg"/>
+  <img src="./src/assets/product-details.jpg"/>
+</div>
+
+
