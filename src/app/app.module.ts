@@ -13,6 +13,8 @@ import { TablesComponent } from './components/home/tables/tables.component';
 import { ShowContractDetailsComponent } from './components/home/show-contract-details/show-contract-details.component';
 import { ContractOptionsComponent } from './components/home/contract-options/contract-options.component';
 import { ContractActionsComponent } from './components/home/contract-actions/contract-actions.component';
+import { CardComponent } from './components/home/card/card.component';
+import { AddNewInputComponent } from './components/home/add-new-input/add-new-input.component';
 // import { ContractDetailsComponent } from './components/home/contract-details/contract-details.component';
 
 @NgModule({
@@ -27,6 +29,8 @@ import { ContractActionsComponent } from './components/home/contract-actions/con
     ShowContractDetailsComponent,
     ContractOptionsComponent,
     ContractActionsComponent,
+    CardComponent,
+    AddNewInputComponent,
     // ContractDetailsComponent,
   ],
   imports: [

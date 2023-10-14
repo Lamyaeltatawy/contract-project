@@ -1,0 +1,9 @@
+.print button {
+    font-size: 12px;
+    color: #10AB4E;
+    border: 1px solid #10AB4E;
+}
+.accordion button{
+    background-color: #E8E8E8;
+    font-size: 14px;
+}

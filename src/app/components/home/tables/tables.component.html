@@ -1,8 +1,216 @@
-<div class=" batches ">
-    
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe
-      delectus, eius quaerat illum, blanditiis nihil voluptatum natus incidunt
-      tempora maiores alias numquam. Temporibus aliquam nemo fugit sit, ipsum a!
-    </p>
+<div class="batches">
+  <div class="actions">
+    <app-contract-actions></app-contract-actions>
   </div>
+  <div class="tables d-flex flex-row-reverse">
+    <div class="details-table w-75 px-3 pt-3">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>الموظف</th>
+            <th>نوع السداد</th>
+            <th>القيمة</th>
+            <th>نوع الدفعة</th>
+            <th>تاريخ الإضافة</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a (click)="details()"
+                ><i class="bi bi-caret-left"><i class="bi bi-printer"></i></i
+              ></a>
+              <i class="accordionn"
+                ><div class="accordion" id="accordionExample">
+                  <div class="accordion-item p-0 border-0">
+                    <h2 class="header" [hidden]="!isTrue">
+                      <button
+                        class="accordion-button w-auto p-0 align-content-center"
+                        (click)="details()"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      ></button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div
+                        class="accordion-body border-0 w-auto pt-5"
+                        [hidden]="!isTrue"
+                      >
+                        <strong
+                          >This is the first item's accordion body.</strong
+                        >
+                        It is shown by default, until the collapse plugin adds
+                        the appropriate classes that we use to style each
+                        element. These classes control the overall appearance,
+                        as well as the showing and hiding via CSS transitions.
+                        You can modify any of this with custom CSS or overriding
+                        our default variables. It's also worth noting that just
+                        about any HTML can go within the
+                        <code>.accordion-body</code>, though the transition does
+                        limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div></i
+              >
+            </td>
+
+            <td>1012</td>
+            <td>شيكات</td>
+            <td>500 ر.س</td>
+            <td>تحت الحساب</td>
+            <td>17-12-2022</td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                ><i class="bi bi-caret-left"><i class="bi bi-printer"></i></i
+              ></a>
+            </td>
+            <td>1012</td>
+            <td>شيكات</td>
+            <td>500 ر.س</td>
+            <td>تحت الحساب</td>
+            <td>17-12-2022</td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                ><i class="bi bi-caret-left"><i class="bi bi-printer"></i></i
+              ></a>
+            </td>
+            <td>1012</td>
+            <td>شيكات</td>
+            <td>500 ر.س</td>
+            <td>تحت الحساب</td>
+            <td>17-12-2022</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="new-operation">
+        <button
+          class="btn btn-primary py-1 px-1 border-0 "
+          style="font-size: 14px; background-color: #d6a218"
+          type="submit"
+        >
+          اضافة دفعة جديدة
+          <i class="bi bi-plus" style="font-size: 17px"></i>
+        </button>
+        <div class="cardBatch">
+          <div class="col">
+            <div class="col-sm-15 mb-3 pt-1 mb-2">
+              <div class="card">
+                <div class="card-body d-flex flex-row-reverse">
+                  <div class="total d-flex">
+                    <input
+                      type="text"
+                      class="form-control pt-0 pb-1 px-2 mx-2 border-0"
+                      style="
+                        text-align: end;
+                        color: #3bb556;
+                        background-color: #f3f3f3;
+                      "
+                      id="name"
+                      placeholder="ر.س"
+                    />
+                    <label for="name">اجمالى</label>
+                  </div>
+                  <div class="remaining d-flex">
+                    <input
+                      type="text"
+                      class="form-control pt-0 pb-1 px-2 mx-2 border-0"
+                      style="
+                        text-align: end;
+                        color: #2772e2;
+                        background-color: #f3f3f3;
+                      "
+                      id="name"
+                      placeholder="ر.س"
+                    />
+                    <label class="remin me-5" for="name">المتبقى</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-15">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex flex-row-reverse pt-2">
+                    بيانات الموظف
+                  </div>
+                  <div
+                    class="data d-flex flex-row-reverse pb-2"
+                    style="
+                      color: #d6a218;
+                      text-align: right;
+                      font-family: Cairo;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: normal;
+                    "
+                  >
+                    بيانات موظف الفتح
+                  </div>
+                  <div class="employee-data">
+                    <label
+                      class="employee-number d-flex flex-row-reverse pb-2"
+                      for="name"
+                      style="font-size: 14px; font-family: Cairo"
+                      >رقم الموظف</label
+                    >
+                    <div class="inputt d-flex flex-row-reverse">
+                      <input
+                        type="text"
+                        class="form-control pt-0 pb-1 px-2 mx-2 d-flex flex-row-reverse border-0 w-50"
+                        style="
+                          text-align: end;
+                          color: #2772e2;
+                          background-color: #f3f3f3;
+                        "
+                        id="name"
+                        placeholder="1223456789"
+                      />
+                    </div>
+
+                    <label
+                      class="employee-name d-flex flex-row-reverse pt-3 pb-2"
+                      for="name"
+                      style="font-size: 14px; font-family: Cairo"
+                      >اسم الموظف</label
+                    >
+                    <div class="inputt d-flex flex-row-reverse">
+                      <input
+                        type="text"
+                        class="form-control pt-0 pb-1 px-2 mx-2 border-0 w-50"
+                        style="
+                          text-align: end;
+                          color: #2772e2;
+                          background-color: #f3f3f3;
+                        "
+                        id="name"
+                        placeholder="محمد على عمران جلالى"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-component align-item-end">
+      <app-card></app-card>
+    </div>
+  </div>
+</div>
