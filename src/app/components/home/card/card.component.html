@@ -1,31 +1,33 @@
 <div class="container w-25 m-0 p-3">
   <div class="card" style="width: 18rem; height: auto">
-    <div class="card-body  ">
-      <div class="print ">
+    <div class="card-body">
+      <div class="print">
         <button type="button" class="btn btn-outline-success p-1">
           <i class="bi bi-printer"></i>طباعة الفاتورة
         </button>
       </div>
-      <div class="accordion pt-2 pb-2   " id="accordionPanelsStayOpenExample">
-        <div class="accordion-item pt-3 border-0   ">
-          <h2 class="accordion-header ">
+      <div class="accordion pt-2 pb-2" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item pt-3 border-0">
+          <h2 class="accordion-header">
             <button
-              class="accordion-button  p-1 d-flex flex-row-reverse justify-content-between  "
+              class="accordion-button p-1 d-flex flex-row-reverse justify-content-between"
               (click)="showDetails()"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseOne"
-            >بيانات عامة </button>
+            >
+              بيانات عامة
+            </button>
           </h2>
           <div
             id="panelsStayOpen-collapseOne"
             [hidden]="!isShown"
-            class="accordion-collapse collapse show "
+            class="accordion-collapse collapse show"
           >
-            <div class="accordion-body ">
-              <ul class="overall-data list-unstyled  ">
+            <div class="accordion-body">
+              <ul class="overall-data list-unstyled">
                 <li>بيانات عامة</li>
                 <li>تكاليف</li>
                 <li>فاتورة</li>
@@ -35,22 +37,10 @@
                 <li>خصومات</li>
                 <li>خصم إداري</li>
               </ul>
-              <ul>
-                <li>رس</li>
-                <li>0 ر.س</li>
-                <li>قيمة الخصم - نقاط</li>
-                <li>0 ر.س</li>
-              </ul>
-              <ul>
-                <li>قيمة الخصم - كود خصم</li>
-                <li>25 ر.س</li>
-                <li>الخصومات الكلية</li>
-                <li>25 ر.س</li>
-              </ul>
             </div>
           </div>
         </div>
-        <div class="accordion-item pt-3 ">
+        <div class="accordion-item pt-3">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed p-1 d-flex flex-row-reverse justify-content-between"
@@ -59,7 +49,9 @@
               data-bs-target="#panelsStayOpen-collapseTwo"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
-            >تكاليف</button>
+            >
+              تكاليف
+            </button>
           </h2>
           <div
             id="panelsStayOpen-collapseTwo"
@@ -69,7 +61,7 @@
             <div class="accordion-body"></div>
           </div>
         </div>
-        <div class="accordion-item pt-3 ">
+        <div class="accordion-item pt-3">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed p-1 d-flex flex-row-reverse justify-content-between"
@@ -78,17 +70,19 @@
               data-bs-target="#panelsStayOpen-collapseTwo"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
-            >فاتورة</button>
+            >
+              فاتورة
+            </button>
           </h2>
           <div
             id="panelsStayOpen-collapseTwo"
-            class="accordion-collapse collapse border-0 "
+            class="accordion-collapse collapse border-0"
             [hidden]="!isShown"
           >
             <div class="accordion-body"></div>
           </div>
         </div>
-        <div class="accordion-item pt-3 pb-3 border-0 ">
+        <div class="accordion-item pt-3 pb-3 border-0">
           <h2 class="accordion-header">
             <button
               class="accordion-button collapsed p-1 d-flex flex-row-reverse justify-content-between"
@@ -97,7 +91,9 @@
               data-bs-target="#panelsStayOpen-collapseTwo"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
-            >ملخص الفاتورة</button>
+            >
+              ملخص الفاتورة
+            </button>
           </h2>
           <div
             id="panelsStayOpen-collapseTwo"
